@@ -1,0 +1,523 @@
+/* css settings and classes */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body {
+    font-family: Inter;
+}
+
+.logoTitle {
+    color: #000000;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #535862;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+}
+
+.headerLongin {
+    border: 1px solid #D5D7DA;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414651;
+    background-color: #FFFFFF;
+}
+
+.headerSingup {
+    background-color: #7F56D9;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.demo {
+    border: 1px solid #D5D7DA;
+    border-radius: 10px;
+    padding: 16px 24px;
+    margin-right: 12px;
+    color: #414651;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.singup {
+    background-color: #7F56D9;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.supText {
+    font-weight: 400;
+    color: #535862;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+h3 {
+    color: #7F56D9;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.cardText {
+    color: #535862;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    gap: 32px;
+}
+
+.headerLinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+}
+
+.headingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.headingContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.badgeContainer {
+    display: flex;
+    gap: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+    font-weight: 500px;
+    color: #414651;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+}
+
+.newFeature {
+    display: flex;
+    gap: 6px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+}
+
+.cheeckOut {
+    display: flex;
+    gap: 4px;
+}
+
+.tight {
+    max-width: 768px;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.backgroundContainer {
+    display: flex;
+    justify-content: center;;
+}
+
+.iphone {
+    position: relative;
+    top: 64px;
+    left: 68px;
+    z-index: 1;
+}
+
+.analytic {
+    position: relative;
+    right: 68px;
+}
+
+.futureAnalytics {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.horizontalVector {
+    border: 2px solid #535862;
+    width: 0px;
+    height: 114px; 
+    position: relative;
+    align-self: center;
+}
+
+.futureContent {
+    display: flex;
+    gap: 16px;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px 24px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+}
+
+.boxTitle {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.boxInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.boxText {
+    color: #535862;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    max-width: 272px;
+}
+
+.upgradeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardPrice {
+    padding: 0 32px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.iconBackground {
+    background-color: #F4EBFF;
+    border-radius: 99999px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planTitle {
+    color: #6941C6;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.planPrice {
+    color: #181D27;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.cardText {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cardContent {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 40px;
+}
+
+.checkContainer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.cardButton {
+    padding: 32px;
+    background-color: #FAFAFA;
+    border-top: 1px solid #E9EAEB;
+}
+
+.purpleButton {
+    padding: 12px 18px;
+    background-color: #7F56D9;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.rateContainer {
+    background-color: #53389E;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.rateContent {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px;
+}
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+
+.rateText {
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 44px;
+    font-size: 36px;
+    max-width: 416px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.userName {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.aboutUser {
+    color: #E9D7FE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dotContainer {
+    display: flex;
+    gap: 16px;
+}
+
+.whiteDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 99999px;
+    background-color: #FFFFFF;
+}
+
+.purpleDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 99999px;
+    background-color: #9E77ED;
+}
+
+.userPhoto {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 32px;
+}
+
+.copy {
+    color: #717680;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+}
